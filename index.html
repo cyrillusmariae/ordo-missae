@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="/ordo-missae/">首頁</a>
+  <a href="#">進堂禮</a>
+  <a href="#">聖道禮儀</a>
+  <a href="#">聖祭禮儀</a>
+  <a href="#">感恩經第一式</a>
+  <a href="#">感恩經第二式</a>
+  <a href="#">感恩經第三式</a>
+  <a href="#">感恩經第四式</a>
+  <a href="#">領主禮</a>
+  <a href="#">禮成式</a>
+</div>
+
+<div class="content">
+  <h2>羅馬新禮彌撒規程 Ordo Missæ -- Novus Ordo</h2>
+  <p>A full-height, fixed sidenav and content.</p>
+</div>
+
+</body>
+</html>
